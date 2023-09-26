@@ -1,0 +1,8 @@
+.partnered {
+  &__section {
+    @apply bg-lightBlack py-[3.75rem] lg:py-20 text-center;
+  }
+  &__logo {
+    @apply flex gap-8 justify-center items-center pt-[3.75rem];
+  }
+}

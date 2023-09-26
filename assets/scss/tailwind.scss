@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "layout/header";
+@import "layout/footer";
+@import "layout/base";
+@import "typography";
+@import "module/slick";
+@import "admin";
+
+/* ACF block SCSS here */
+@import "acf-block-scss/banner-section.scss";  
+@import "acf-block-scss/partnered-with.scss";
+@import "acf-block-scss/company-info.scss";
+@import "acf-block-scss/business-step.scss";
+@import "acf-block-scss/about-company.scss";
+@import "acf-block-scss/our-solution.scss";
+@import "acf-block-scss/blog-listing.scss";
+@import "acf-block-scss/community-info.scss";
+@import "acf-block-scss/testimonials.scss";

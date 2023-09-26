@@ -1,0 +1,107 @@
+{
+    "key": "group_65108a289996f",
+    "title": "Block: Top Blogs",
+    "fields": [
+        {
+            "key": "field_65108a28c6f44",
+            "label": "Top Blogs Heading",
+            "name": "top_blogs_heading",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Reimaging the world of work",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6511bc0cd1970",
+            "label": "Top Blogs Description",
+            "name": "top_blogs_description",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Hear from our experts.",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6511bc24d1971",
+            "label": "Select 3 Blogs",
+            "name": "select_blogs",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post"
+            ],
+            "post_status": "",
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "taxonomy"
+            ],
+            "return_format": "id",
+            "min": "",
+            "max": "",
+            "elements": "",
+            "bidirectional": 0,
+            "bidirectional_target": []
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/top-blogs"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "as_block": 1,
+    "block_icon": "welcome-widgets-menus",
+    "block_category": "acf-blocks",
+    "block_keywords": "",
+    "block_post_types": "",
+    "block_alignments": "",
+    "block_align": "",
+    "block_mode": "preview",
+    "block_anchor": 1,
+    "block_customClassNames": 1,
+    "block_multiple": 1,
+    "block_reusable": 1,
+    "modified": 1695662363
+}

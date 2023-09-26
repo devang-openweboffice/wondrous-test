@@ -1,0 +1,47 @@
+.business {
+  &__step {
+    @apply bg-primary py-20;
+    h2 {
+      @apply text-lightBlack pb-[2.875rem];
+    }
+  }
+  &__slider {
+    @apply pt-[9.25rem];
+    .slick-track {
+      @apply flex;
+    }
+    .slick-list {
+      @apply md:-mr-[25vw];
+    }
+    .slick-slide {
+      @apply h-[inherit];
+    }
+    .slick-arrow {
+      @apply top-10 h-12 w-12 mt-0 rounded-none bg-lightBlack bg-[length:20px_20px] opacity-100;
+    }
+    .slick-prev {
+      @apply right-16 left-[unset];
+    }
+    .slick-next {
+      @apply right-0;
+    }
+    &__single {
+      @apply bg-white w-[calc(100vw-3rem)] md:w-[28.75rem] mr-8 min-h-[10rem] h-full rounded-[.875rem] p-8 shadow-[0_0.25rem_0.25rem_0_rgba(0,0,0,0.25)];
+      h5 {
+        @apply py-8 text-left;
+      }
+      p {
+        @apply text-left;
+      }
+    }
+    &__icon {
+      @apply w-[5.3125rem] h-[4.875rem] bg-lightBlack p-2 rounded;
+      figure {
+        @apply w-full h-full flex items-center justify-center;
+        img {
+          @apply w-auto h-auto;
+        }
+      }
+    }
+  }
+}

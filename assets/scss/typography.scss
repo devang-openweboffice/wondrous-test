@@ -1,0 +1,28 @@
+h1 {
+  @apply font-gtestiprodisplaylight text-[3.5rem] leading-none text-lightBlack;
+  @screen lg {
+    @apply text-[4.625rem] leading-[4.1875rem];
+  }
+}
+h2 {
+  @apply text-white font-gtestiprodisplaylight text-3xl leading-none;
+  @screen md {
+    @apply text-5xl;
+  }
+}
+h4 {
+  @apply text-lightBlack text-lg font-gtestiprodisplaylight leading-tight;
+  @screen lg {
+    @apply text-4xl;
+  }
+}
+h5 {
+  @apply text-[2rem] font-gtestiprodisplaylight text-lightBlack leading-none;
+}
+
+p {
+  @apply text-lg font-gtestiprodisplaylight;
+  @screen lg {
+    @apply text-2xl;
+  }
+}

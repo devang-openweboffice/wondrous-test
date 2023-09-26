@@ -1,0 +1,85 @@
+{
+    "key": "group_650fc4106050c",
+    "title": "Block: Partnered Logos",
+    "fields": [
+        {
+            "key": "field_650fc41033523",
+            "label": "Partnered Logos Heading",
+            "name": "partnered_logos_heading",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Over the last 25 years we have partnered with",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_65119903145e5",
+            "label": "Partnered Logos",
+            "name": "partnered_logos",
+            "aria-label": "",
+            "type": "gallery",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min": "",
+            "max": "",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "insert": "append",
+            "preview_size": "medium"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/partnered-logos"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "as_block": 1,
+    "block_icon": "welcome-widgets-menus",
+    "block_category": "acf-blocks",
+    "block_keywords": "",
+    "block_post_types": "",
+    "block_alignments": "",
+    "block_align": "",
+    "block_mode": "preview",
+    "block_anchor": 1,
+    "block_customClassNames": 1,
+    "block_multiple": 1,
+    "block_reusable": 1,
+    "modified": 1695652122
+}

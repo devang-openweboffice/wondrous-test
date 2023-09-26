@@ -1,0 +1,32 @@
+.solution {
+  &__wrapper {
+    @apply py-[3.75rem] lg:py-20;
+    h2 {
+      @apply text-lightBlack pb-8;
+    }
+  }
+  &__items {
+    @apply flex flex-wrap border-t border-gray mt-14;
+    &__icon {
+      @apply w-[5.3125rem] h-[4.875rem] bg-lightBlack p-2 rounded mb-8 lg:mb-12;
+      figure {
+        @apply w-full h-full flex items-center justify-center;
+        img {
+          @apply w-auto h-auto;
+        }
+      }
+    }
+    &__single {
+      @apply px-6 py-8 border-gray border-solid border-r border-b w-full md:w-1/2 border-collapse;
+      @screen lg {
+        @apply pt-10 pb-20 px-[5.625rem];
+      }
+      p {
+        @apply text-base;
+      }
+      h5 {
+        @apply pb-4;
+      }
+    }
+  }
+}

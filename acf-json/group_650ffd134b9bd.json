@@ -1,0 +1,169 @@
+{
+    "key": "group_650ffd134b9bd",
+    "title": "Block: Business Step",
+    "fields": [
+        {
+            "key": "field_650ffd13d6f01",
+            "label": "Business Step Heading",
+            "name": "business_step_heading",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "When people flourish business thrives",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6511a194b7df6",
+            "label": "Business Step Description",
+            "name": "business_step_description",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "We know your world is changing fast. We create environments of high trust and high challenge that allow the brilliance of your people to shine through. Together we can reimagine the world of work to:",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6511a1bfb7df7",
+            "label": "Business Steps",
+            "name": "business_steps",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Row",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_6511a1dcb7df8",
+                    "label": "Business Step Heading",
+                    "name": "business_step_heading",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_6511a1bfb7df7"
+                },
+                {
+                    "key": "field_6511a1e8b7df9",
+                    "label": "Business Step Description",
+                    "name": "business_step_description",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_6511a1bfb7df7"
+                },
+                {
+                    "key": "field_6511a3b212b4b",
+                    "label": "Business Step Image",
+                    "name": "business_step_image",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "medium",
+                    "parent_repeater": "field_6511a1bfb7df7"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/business-step"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "as_block": 1,
+    "block_icon": "welcome-widgets-menus",
+    "block_category": "acf-blocks",
+    "block_keywords": "",
+    "block_post_types": "",
+    "block_alignments": "",
+    "block_align": "",
+    "block_mode": "preview",
+    "block_anchor": 1,
+    "block_customClassNames": 1,
+    "block_multiple": 1,
+    "block_reusable": 1,
+    "modified": 1695655543
+}

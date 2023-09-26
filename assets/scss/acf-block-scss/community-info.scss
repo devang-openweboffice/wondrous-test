@@ -1,0 +1,50 @@
+.community {
+  &__wrapper {
+    @apply pt-[3.75rem] lg:pt-20;
+    h2 {
+      @apply text-lightBlack;
+    }
+  }
+  &__items {
+    @apply pt-10 flex relative flex-col lg:flex-row;
+    &__single {
+      @apply h-[24.375rem] md:h-[32.5rem] lg:h-[42.5rem] w-full lg:w-1/2 relative;
+      figure, img {
+        @apply h-full object-cover;
+      }
+
+      &:after {
+        @apply absolute top-0 left-0 w-full h-full content-[''];
+        background: linear-gradient(0deg,rgba(255,246,230,.4) 0,rgba(29,29,27,.1) 40%);
+      }
+      &:hover {
+        svg {
+          path {
+            @apply stroke-lightBlack;
+          }
+        }
+        h5, p {
+          @apply text-lightBlack;
+        }
+        &:after {
+          @apply bg-white;
+          background: linear-gradient(180deg,rgba(255,255,255,.2) 50%,rgba(247,166,0,.8) 90%);
+        }
+      }
+    }
+    &__content {
+      @apply absolute bottom-10 px-8 lg:pl-[6.25rem] pr-8 text-white z-10;
+      h5 {
+        @apply text-white w-3/5 mr-10 text-lg lg:text-[2rem] leading-tight;  
+      }
+      svg {
+        path {
+          @apply stroke-white;
+        }
+      }
+    }
+    &__title {
+      @apply pb-6 flex items-center;
+    }
+  }
+}

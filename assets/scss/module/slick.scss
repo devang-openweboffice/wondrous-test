@@ -1,0 +1,94 @@
+.slick-slider { 
+  @apply relative block box-border select-none touch-pan-y;
+} 
+.slick-list {
+  @apply relative block p-0 overflow-hidden;
+} 
+.slick-list:focus { 
+  @apply outline-none;
+} 
+.slick-list.dragging { 
+  cursor: hand; 
+} 
+.slick-slider .slick-track, .slick-slider .slick-list { 
+  @apply translate-x-0 translate-y-0; 
+} 
+.slick-track { 
+  @apply relative top-0 left-0 block ml-0 mr-auto;
+} 
+.slick-track:before, .slick-track:after { 
+  @apply table; 
+  content: ''; 
+} 
+.slick-track:after { 
+  @apply clear-both;
+} 
+.slick-loading .slick-track { 
+  @apply invisible;
+} 
+.slick-slide { 
+  @apply hidden float-left h-full min-h-[1px];
+} 
+[dir='rtl'] .slick-slide { @apply float-right; } 
+.slick-slide img { @apply block; } 
+.slick-slide.slick-loading img { @apply hidden; } 
+
+.slick-slide.dragging img { @apply pointer-events-none; } 
+.slick-initialized .slick-slide { 
+  @apply block text-center;
+  @screen xl {
+      @apply text-left;
+  }
+} 
+.slick-loading .slick-slide { @apply invisible; } 
+.slick-vertical .slick-slide { 
+  @apply block h-auto border border-solid; 
+} 
+.slick-arrow.slick-hidden { @apply hidden; }
+.slick-dots{ 
+  @apply flex justify-center items-center absolute w-full bottom-8 list-none;
+  @screen xl {
+      @apply bottom-12;
+  }
+}
+.slick-dots li{ 
+  @apply ml-[0.438rem] mr-[0.438rem] align-top;
+}
+.slick-dots li button { 
+  @apply align-top bg-white h-3 w-3 text-[0px] border-0 rounded-full opacity-50; 
+}
+.slick-dots li.slick-active button { 
+  @apply bg-white opacity-100;
+} 
+
+.slick-arrow {
+  @apply opacity-0 absolute bg-white w-[2.75rem] h-[2.75rem] rounded-full z-10 border-0 shadow-[0_3px_6px_rgba(0,0,0,0.29)] top-1/2 mt-[-3.125rem] cursor-pointer transition ease-in-out hover:shadow-[7px_7px_11px_rgba(0,0,0,0.29)] bg-no-repeat bg-cover bg-center;
+  @screen sm {
+      @apply w-[4.75rem] h-[4.75rem] opacity-0;   
+  }
+  @screen lg {
+      @apply opacity-100;
+  }
+  @screen 2xl {
+      @apply w-[6.25rem] h-[6.25rem];
+  }
+  &.slick-prev {
+      @apply left-0 bg-[url('../images/arrow-left.svg')];
+      @screen lg {
+          @apply left-[-0.8rem];
+      }
+      @screen 2xl {
+          @apply left-[-3rem];
+      }
+  }
+  &.slick-next {
+      @apply right-0 bg-[url('../images/arrow-right.svg')];
+      @screen lg {
+          @apply right-[-0.8rem];
+      }
+      @screen 2xl {
+          @apply right-[-3rem]
+      }
+  }
+}
+

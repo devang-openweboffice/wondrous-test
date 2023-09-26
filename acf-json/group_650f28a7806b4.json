@@ -1,0 +1,118 @@
+{
+    "key": "group_650f28a7806b4",
+    "title": "Block: Banner Section",
+    "fields": [
+        {
+            "key": "field_650f28a73b711",
+            "label": "Banner Section Image",
+            "name": "banner_section_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_651194f96eb7d",
+            "label": "Banner Section Heading",
+            "name": "banner_section_heading",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Flourish in the world of work",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_651195156eb7e",
+            "label": "Banner Section Description",
+            "name": "banner_section_description",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "We help ambitious businesses get future-fit for tomorrow.",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_651195206eb7f",
+            "label": "Banner Section Link",
+            "name": "banner_section_link",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/banner-section"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "as_block": 1,
+    "block_icon": "welcome-widgets-menus",
+    "block_category": "acf-blocks",
+    "block_keywords": "",
+    "block_post_types": "",
+    "block_alignments": "",
+    "block_align": "",
+    "block_mode": "preview",
+    "block_anchor": 1,
+    "block_customClassNames": 1,
+    "block_multiple": 1,
+    "block_reusable": 1,
+    "modified": 1695651121
+}

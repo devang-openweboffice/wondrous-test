@@ -1,0 +1,17 @@
+.company {
+  &__wrapper {
+    @apply bg-lightBlack py-20;
+  }
+  &__community {
+    @apply flex gap-12 md:gap-y-8 md:gap-x-0 lg:gap-16 pt-16;
+    &__item {
+      @apply lg:max-w-[16.25rem] w-full md:w-1/2 lg:w-1/4;
+      p {
+        @apply text-white pt-6 lg:pt-5;
+      }
+    }
+    &__count {
+      @apply text-primary text-8xl flex;
+    }
+  }
+}

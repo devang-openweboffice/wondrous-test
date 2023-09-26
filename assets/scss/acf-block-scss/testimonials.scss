@@ -1,0 +1,76 @@
+.testimonials {
+  &__wrapper {
+    @apply bg-lightBlack py-[3.75rem] lg:py-20;
+    .button {
+      @apply bg-primary text-lg leading-none w-fit self-end text-coffe hover:text-white hover:bg-lightBlack delay-0;
+    }
+  }
+  &__slider {
+    @apply pt-11;
+    .slick-track {
+      @apply flex;
+    }
+    .slick-slide {
+      @apply h-[inherit] flex;
+    }
+    .slick-list {
+      @apply lg:-mr-[10vw];
+    }
+    &__single {
+      @apply bg-white w-[calc(80vw-3rem)] mr-4 rounded-sm flex relative shadow-[0_0.25rem_0.25rem_0_rgba(0,0,0,0.25)];
+      @screen md {
+        @apply w-[43.5rem] mr-8 min-h-[24.375rem];
+      }
+      @screen lg {
+        @apply w-[47.5rem];
+      }
+      &:not(.slick-current) {
+        &:after {
+          @apply content-[''] absolute w-full h-full bg-lightBlack bg-opacity-50;
+        }
+      }
+    }
+    &__image {
+      @apply flex-[0_0_100px] md:flex-[0_0_260px] bg-white;
+      figure, img {
+        @apply w-full h-full object-cover;
+      }
+    }
+    &__content {
+      @apply px-4 py-2 flex flex-col justify-between text-left;
+      @screen md {
+        @apply px-10 py-6;
+      }
+      h5 {
+        @apply text-xs md:text-[2rem] leading-tight;
+      }
+      span {
+        @apply text-[.5rem] md:text-base text-lightBlack font-gtestiprodisplaylight block pt-1;
+      }
+      p {
+        @apply py-4 md:py-16 text-[.5rem] md:text-xl leading-tight;
+      }
+      .button {
+        @apply text-[.5rem] p-2 min-w-min;
+        @screen md {
+          @apply text-lg px-6 py-4;
+        }
+      }
+    }
+  }
+  &__action {
+    @apply flex justify-end pt-10;
+    .button {
+      &:hover {
+        @apply bg-white text-lightBlack;
+      }
+    }
+  }
+  &__progressbar {
+    @apply mt-10 block w-full h-1.5 rounded-lg overflow-visible relative bg-darkgray bg-no-repeat bg-[length:0_100%] transition-[background-size];
+    background-image: linear-gradient(to right,#fff,#fff);
+    span {
+      @apply w-5 h-5 bg-white absolute left-0 -top-2 rounded-full -ml-1.5;
+    }
+  }
+}

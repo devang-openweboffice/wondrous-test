@@ -1,0 +1,41 @@
+.wp-block {
+  @apply max-w-[71.25rem] my-0;
+  .animation__fade {
+    @apply opacity-100 translate-y-[1.875rem] ease-in-out duration-500;
+  }
+  .button {
+    @apply bg-lightBlack text-white min-w-[9rem] py-4 px-6 font-gtestiprodisplayregular text-lg leading-none hover:text-black hover:bg-white rounded-sm;
+  }
+  h1 {
+    @apply font-gtestiprodisplaylight text-[4.625rem] leading-[4.1875rem] text-lightBlack m-0;
+  }
+  h2 {
+    @apply text-white font-gtestiprodisplaylight text-5xl leading-none m-0;
+  }
+  h4 {
+    @apply text-lightBlack text-[2.25rem] font-gtestiprodisplaylight leading-tight m-0;
+  }
+  h5 {
+    @apply text-[2rem] font-gtestiprodisplaylight text-lightBlack leading-none m-0;
+  }
+  p {
+    @apply text-lg font-gtestiprodisplaylight;
+    @screen lg {
+      @apply text-2xl;
+    }
+  }
+  .wp-block-acf-company-info {
+    @apply w-full;
+  }
+  .company {
+    &__community {
+      @apply gap-5;
+      p {
+        @apply m-0;
+      }
+      &__count {
+        @apply text-7xl;
+      }
+    }
+  }
+} 

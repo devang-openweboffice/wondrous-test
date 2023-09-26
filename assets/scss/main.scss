@@ -1,0 +1,12 @@
+.button {
+  @apply bg-lightBlack text-white min-w-[9rem] py-4 px-6 font-gtestiprodisplayregular text-lg leading-none hover:text-black hover:bg-white rounded-sm;
+}
+.t-delay-300 {
+  @apply delay-500;
+}
+.animation__fade {
+  @apply opacity-0 translate-y-[1.875rem] ease-in-out duration-500; 
+} 
+.animation__fade.show {
+  @apply opacity-100 translate-y-0; 
+}

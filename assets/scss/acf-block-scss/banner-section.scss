@@ -1,0 +1,23 @@
+.banner {
+  &__section {
+    @apply flex bg-primary flex-col-reverse md:flex-row;
+  }
+  &__image {
+    @apply flex-1;
+    img, figure {
+      @apply h-full;
+    }
+  }
+  &__content {
+    @apply flex-1 pt-[7.5rem] pb-[4.625rem] lg:py-0;
+    &__info {
+      @apply flex flex-col justify-center max-w-[40rem] h-full px-6 md:px-14;
+      h4 {
+        @apply pt-8 pb-10 md:pb-16;
+      }
+      a.button {
+        @apply w-fit delay-0;
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+    "key": "group_650ff9bb381fb",
+    "title": "Block: Company Info",
+    "fields": [
+        {
+            "key": "field_650ff9bbc975b",
+            "label": "Company Info Heading",
+            "name": "company_info_heading",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Unleashing the power and energy of individuals, teams and companies for long term business success",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6511a0396ef4d",
+            "label": "Company Info Description",
+            "name": "company_info_description",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Wondrous partners with companies to create the culture, momentum and beliefs that create sustainable business. We are not about one hit, tick box or self-serve off the shelf solutions. To win hearts and minds we work at depth, for sustained change. The kind of transformational change that gets ingrained into your organisational dna.",
+            "maxlength": "",
+            "rows": "",
+            "placeholder": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/company-info"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "as_block": 1,
+    "block_icon": "welcome-widgets-menus",
+    "block_category": "acf-blocks",
+    "block_keywords": "",
+    "block_post_types": "",
+    "block_alignments": [
+        "left",
+        "center",
+        "right"
+    ],
+    "block_align": "left",
+    "block_mode": "preview",
+    "block_anchor": 1,
+    "block_customClassNames": 1,
+    "block_multiple": 1,
+    "block_reusable": 1,
+    "modified": 1695654150
+}

@@ -1,0 +1,109 @@
+.footer {
+  &__logo {
+    @apply w-[10.5rem];
+  }
+  &__bottom {
+    @apply bg-yellolight relative bg-[url('../images/footer-bg.png')] bg-contain bg-no-repeat pt-[3.75rem] lg:pt-[6.25rem];
+    &__content {
+      @apply flex pt-5 pb-10 justify-between flex-col;
+      @screen lg {
+        @apply flex-row pt-8 pb-[3.75rem];
+      }
+    }
+    &__left {
+      @apply max-w-[32rem] pb-6 lg:pb-0;
+      p {
+        @apply text-3xl lg:text-5xl leading-tight;
+      }
+    }
+    &__right {
+      ul {
+        @apply lg:columns-2;
+        li {
+          @apply px-0 lg:px-9 py-4;
+          a {
+            &:hover {
+              @apply underline;
+            }
+          }
+        }
+      }
+    }
+    &__social {
+      @apply flex py-8 border-black border-t border-solid justify-between items-center;
+      p {
+        @apply text-sm font-gtestitrialdisplayregular mr-4;
+      }
+      ul {
+        @apply flex items-center gap-4;
+        li {
+          a {
+            &:hover {
+              svg {
+                @apply scale-125 transition-all duration-500;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &__top {
+    @apply bg-lightBlack py-[3.75rem] lg:pt-5 lg:pb-16;
+    &__main {
+      @apply flex px-[1.875rem] justify-between flex-col lg:flex-row;
+    }
+    &__left {
+      p {
+        @apply text-4xl lg:text-5xl text-primary max-w-[28rem] leading-tight lg:leading-none;
+      }
+      h4 {
+        @apply text-[7.5rem] lg:text-[10.8125rem] leading-none text-white pt-10 lg:pt-5;
+      }
+    }
+    &__right {
+      @apply w-full lg:w-[22.5rem] mr-[7.5rem] pt-[3.75rem];
+      input[type="email"],
+      input[type="tel"],
+      select {
+        @apply w-full p-3 text-base mt-4;
+      }
+      input[type="email"] {
+        @apply mt-0;
+      }
+      select {
+        @apply text-lightBlack bg-[url('../images/down-arrow.png')] bg-no-repeat bg-[97%_50%] bg-[length:16px_10px];
+        appearance: none;
+      }
+      .wpcf7-list-item {
+        @apply m-0 text-primary text-xs mt-4;
+        input[type="checkbox"] {
+          @apply absolute;
+        }
+        span {
+          @apply pl-6 block;
+        }
+        a {
+          @apply underline;
+        }
+      }
+      .wpcf7-submit {
+        @apply w-full bg-primary text-lightBlack p-4 rounded-sm mt-4;
+      }
+      .wpcf7-not-valid-tip {
+        @apply text-sm;
+      }
+      .wpcf7 form.invalid,
+      form.failed {
+        .wpcf7-response-output {
+          @apply text-red m-0 p-0 text-sm border-none;
+        }
+      }
+      .wpcf7 form.sent {
+        .wpcf7-response-output {
+          @apply text-green m-0 p-0 bottom-0;
+        }
+      }
+    }
+  }
+}

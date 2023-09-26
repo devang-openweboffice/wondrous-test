@@ -1,0 +1,11 @@
+.company {
+  &__info {
+    @apply py-[3.75rem] lg:py-20 bg-white;
+    h2 {
+      @apply text-lightBlack text-center;
+    }
+    p {
+      @apply text-center pt-10 lg:mx-10;
+    }
+  }
+}
